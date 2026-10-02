@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samantha Trinkler — Portfolio</title>
+<meta name="description" content="Samantha Trinkler — graphisme, identité visuelle, édition et stratégie digitale.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ============ SIDEBAR : BIO + CONTACT (static) ============ -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <div class="sidebar-top">
+        <h1 class="name">Samantha <br>Trinkler</h1>
+        <p class="tagline">Graphisme &amp; identité&nbsp;visuelle</p>
+      </div>
+
+      <div class="sidebar-block bio" id="bio">
+        <h2 class="block-label">INFO</h2>
+        <p>Designer graphique suisse-australienne, formée à l'ECAL. Son travail unit édition, identité visuelle et stratégie digitale.</p> <font color="grey"></p>Membre 1/3 Collectif Cave Canem.</font></p>
+        <p class="detail-line">Suisse&nbsp;/ Australie — EN,&nbsp;FR</p>
+      </div>
+
+      <div class="sidebar-block services">
+        <details class="info-panel" open>
+          <summary>
+            <span class="panel-title">Services</span>
+            <span class="chevron" aria-hidden="true">▾</span>
+          </summary>
+          <div class="panel-body">
+            <ul>
+              <li>Graphisme</li>
+              <li>Identité visuelle</li>
+              <li>Animation</li>
+              <li>Photographie</li>
+              <li>Illustration</li>
+              <li>UX/UI</li>
+              <li>Création contenu</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+
+      <div class="sidebar-block contact" id="contact">
+        <h2 class="block-label">Contact</h2>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:samanthatrinkler@gmail.com" aria-label="Envoyer un email" title="Email"><i class="bx bx-envelope" aria-hidden="true"></i></a>
+          <a class="contact-link" href="https://www.linkedin.com/in/samanthatrinkler/" target="_blank" rel="noopener" aria-label="Voir le profil LinkedIn" title="LinkedIn"><i class="bx bxl-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+        <p class="cv-note">CV sur demande</p>
+      </div>
+
+      <p class="sidebar-footer">© 2026 Samantha Trinkler<br> Tous droits réservés.</p>
+        
+
+    </div>
+  </aside>
+
+  <!-- ============ PROJECTS (scrolling) ============ -->
+  <main class="projects" id="portfolio">
+
+    <header class="projects-header">
+      <span>Portfolio</span>
+      <span>2026</span>
+      <nav class="language-switcher" aria-label="Choisir la langue">
+        <a class="language-link is-active" href="index.html" lang="fr" aria-current="page">FR</a>
+        <span aria-hidden="true">/</span>
+        <a class="language-link" href="index-en.html" lang="en">EN</a>
+      </nav>
+    </header>
+
+    <nav class="project-filters" aria-label="Filtrer les projets" data-filters>
+      <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Tous</button>
+      <button class="filter-button" type="button" data-filter="editorial" aria-pressed="false">Éditorial</button>
+      <button class="filter-button" type="button" data-filter="identity" aria-pressed="false">Identité</button>
+      <button class="filter-button" type="button" data-filter="publication" aria-pressed="false">Publication</button>
+      <button class="filter-button" type="button" data-filter="animation" aria-pressed="false">Animation</button>
+      <button class="filter-button" type="button" data-filter="branding" aria-pressed="false">Branding</button>
+      <button class="filter-button" type="button" data-filter="archive" aria-pressed="false">Archive</button>
+      <button class="filter-button" type="button" data-filter="ux-ui" aria-pressed="false">UX/UI</button>
+    </nav>
+
+    <!-- PROJECT 1 -->
+    <section class="project" data-tags="editorial publication archive">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track">
+          <div class="slide"><img src="../images/AMDA.png" alt="D'Ailleurs Infos, édition spéciale 50 ans, couverture" loading="lazy"></div>
+          <div class="slide"><img src="../images/anda scan copy.jpg" alt="D'Ailleurs Infos, double page intérieure" loading="lazy"></div>
+        </div>
+        <div class="carousel-nav">
+          <button class="car-btn prev" aria-label="Image précédente"><i class="bx bx-chevron-left" aria-hidden="true"></i></button>
+          <div class="car-dots"></div>
+          <button class="car-btn next" aria-label="Image suivante"><i class="bx bx-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="meta-tag">Mandat — Conception éditoriale &amp; valorisation de patrimoine</span>
+          <span class="meta-year">2025–26</span>
+        </div>
+        <h3 class="project-title">50 ans de L'AMDA et de la Maison d'Ailleurs <br><span class="project-place">(Yverdon-les-Bains)</span></h3>
+        <div class="project-tags" aria-label="Types de projet"><button type="button" data-filter="editorial" aria-pressed="false">Éditorial</button><button type="button" data-filter="publication" aria-pressed="false">Publication</button></div>
+        <p class="project-desc">Réalisation de la conception éditoriale pour l'édition spéciale du D'Ailleurs Info, à l'occasion du jubilé de l'Association des Amis de la Maison d'Ailleurs. Ce projet a mobilisé une recherche iconographique au sein des archives de l'institution afin de sélectionner et de mettre en scène des affiches historiques. L'approche visuelle, articulée autour de la fantaisie et de l'imaginaire, combine valorisation patrimoniale et narration graphique pour célébrer cinquante ans d'engagement culturel.</p>
+      </div>
+    </section>
+
+    <!-- PROJECT 2 -->
+    <section class="project" data-tags="identity branding">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track">
+          <div class="slide"><img src="../images/SJLogo.png" alt="Logo Simply Jet sur fond de ciel" loading="lazy"></div>
+          <div class="slide"><img src="../images/SJColours.png" alt="Palette de couleurs Simply Jet" loading="lazy"></div>
+        </div>
+        <div class="carousel-nav">
+          <button class="car-btn prev" aria-label="Image précédente"><i class="bx bx-chevron-left" aria-hidden="true"></i></button>
+          <div class="car-dots"></div>
+          <button class="car-btn next" aria-label="Image suivante"><i class="bx bx-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="meta-tag">Rebranding d'identité visuelle</span>
+          <span class="meta-year">2022</span>
+        </div>
+        <h3 class="project-title">Simply Jet</h3>
+        <p class="project-copyright">© Simply Jet SA. Tous droits réservés.</p>
+        <div class="project-tags" aria-label="Types de projet"><button type="button" data-filter="identity" aria-pressed="false">Identité</button><button type="button" data-filter="branding" aria-pressed="false">Branding</button></div>
+        <p class="project-desc">Refonte globale de l'image de marque pour Simply Jet, courtier en aviation privée basé à Lausanne.<br>
+            <i>Réalisé dans le cadre de mon rôle de Content Strategy Manager chez Simply Jet. Présenté uniquement à des fins de démonstration dans le cadre d'un portfolio personnel.</i></p>
+      </div>
+    </section>
+
+    <!-- PROJECT 3 -->
+    <section class="project" data-tags="identity ux-ui">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track">
+          <div class="slide video-slide">
+            <video class="project-video" src="../images/APEX.mov" autoplay muted loop playsinline preload="auto" aria-label="Vidéo de démonstration du concept APEX"></video>
+          </div>
+          <div class="slide"><img src="../images/apex1.png" alt="Concept Spectres sur écrans Samsung" loading="lazy"></div>
+          <div class="slide"><img src="../images/apex2.png" alt="Détail écran Samsung, motif Spectres" loading="lazy"></div>
+          <div class="slide"><img src="../images/apex3.png" alt="Motif graphique Spectres, dégradé magenta" loading="lazy"></div>
+          <div class="slide"><img src="../images/apex4.png" alt="Motif graphique Spectres, formes bleues" loading="lazy"></div>
+          <div class="slide"><img src="../images/apex5.png" alt="Packaging téléviseur Samsung, motif Spectres" loading="lazy"></div>
+          <div class="slide"><img src="../images/apex6.png" alt="Packaging téléviseur Samsung, motif Spectres" loading="lazy"></div>
+        </div>
+        <div class="carousel-nav">
+          <button class="car-btn prev" aria-label="Image précédente"><i class="bx bx-chevron-left" aria-hidden="true"></i></button>
+          <div class="car-dots"></div>
+          <button class="car-btn next" aria-label="Image suivante"><i class="bx bx-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="meta-tag">Concept d'identité pour une plateforme de private banking</span>
+          <span class="meta-year">2025</span>
+        </div>
+        <h3 class="project-title">APEX</h3>
+        <div class="project-tags" aria-label="Types de projet"><button type="button" data-filter="identity" aria-pressed="false">Identité</button><button type="button" data-filter="ux-ui" aria-pressed="false">UX/UI</button></div>
+        <p class="project-desc">APEX rend la banque privée haut de gamme plus accessible aux générations digitales. Le concept supprime le jargon financier traditionnel et remplace les outils complexes par une expérience mobile intuitive, pensée autour de stratégies automatisées, de placements diversifiés et d'un accès simplifié à des opportunités de finance privée.</p>
+      </div>
+    </section>
+
+    <!-- PROJECT 4 -->
+    <section class="project" data-tags="identity branding">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track">
+          <div class="slide"><img src="../images/piq1.png" alt="Piq Piq product packaging" loading="lazy"></div>
+          <div class="slide"><img src="../images/piq2.png" alt="Piq Piq product close up" loading="lazy"></div>
+          <div class="slide"><img src="../images/piq3.png" alt="Piq Piq product close up" loading="lazy"></div>
+        </div>
+        <div class="carousel-nav">
+          <button class="car-btn prev" aria-label="Image précédente"><i class="bx bx-chevron-left" aria-hidden="true"></i></button>
+          <div class="car-dots"></div>
+          <button class="car-btn next" aria-label="Image suivante"><i class="bx bx-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="meta-tag">Identité de marque</span>
+          <span class="meta-year">2024</span>
+        </div>
+        <h3 class="project-title">PIQ PIQ</h3>
+        <div class="project-tags" aria-label="Types de projet"><button type="button" data-filter="identity" aria-pressed="false">Identité</button><button type="button" data-filter="branding" aria-pressed="false">Branding</button></div>
+        <p class="project-desc">Projet collaboratif du collectif Cave Canem pour le concours d'étiquettes de bières de la Brasserie WhiteFrontier. Une bière pensée pour les passionnés, qui recherchent un équilibre entre légèreté et intensité, entre ivresse et joie de vivre. Une expérience épicée, unique et rassembleuse.</p>
+      </div>
+    </section>
+
+    <!-- PROJECT 5 -->
+    <section class="project" data-tags="publication editorial archive">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track">
+          <div class="slide"><img src="../images/coverhh.png" alt="Ouvrage Hydro-Hegemony relié" loading="lazy"></div>
+          <div class="slide"><img src="../images/hydro1.png" alt="Double page intérieure Hydro-Hegemony" loading="lazy"></div>
+          <div class="slide"><img src="../images/hydro2.png" alt="Recherche visuelle Hydro-Hegemony" loading="lazy"></div>
+          <div class="slide"><img src="../images/16.webp" alt="Archives visuelles Hydro-Hegemony" loading="lazy"></div>
+          <div class="slide"><img src="../images/27.webp" alt="Recherche documentaire Hydro-Hegemony" loading="lazy"></div>
+          <div class="slide"><img src="../images/28.webp" alt="Publication Hydro-Hegemony" loading="lazy"></div>
+          <div class="slide"><img src="../images/6.webp" alt="Site web Hydro-Hegemony" loading="lazy"></div>
+        </div>
+        <div class="carousel-nav">
+          <button class="car-btn prev" aria-label="Image précédente"><i class="bx bx-chevron-left" aria-hidden="true"></i></button>
+          <div class="car-dots"></div>
+          <button class="car-btn next" aria-label="Image suivante"><i class="bx bx-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="meta-tag">Edition et site web</span>
+          <span class="meta-year">2021</span>
+        </div>
+        <h3 class="project-title">Hydro-Hegemony</h3>
+        <div class="project-tags" aria-label="Types de projet"><button type="button" data-filter="publication" aria-pressed="false">Publication</button><button type="button" data-filter="archive" aria-pressed="false">Archive</button></div>
+        <p class="project-desc">Recherche visuelle retraçant les conflits liés à l'eau de 3000 av. J.-C. à nos jours. Le projet met en lumière l'importance vitale de l'eau dans les tensions géopolitiques et les enjeux environnementaux contemporains.</p>
+      </div>
+    </section>
+
+    <!-- PROJECT 6 -->
+    <section class="project" data-tags="publication archive">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track">
+          <div class="slide"><img src="../images/leg.jpg" alt="Legatum Digitalis installation display" loading="lazy"></div>
+          <div class="slide"><img src="../images/leg1.jpg" alt="Installation Legatum Digitalis, présentoir" loading="lazy"></div>
+          <div class="slide"><img src="../images/leg2.jpg" alt="Installation Legatum Digitalis, typographie au sol" loading="lazy"></div>
+          <div class="slide"><img src="../images/leg3.jpg" alt="Affiches Legatum Digitalis" loading="lazy"></div>
+          <div class="slide"><img src="../images/leg4.jpg" alt="Affiches Legatum Digitalis, détail" loading="lazy"></div>
+          <div class="slide"><img src="../images/leg5.png" alt="Affiches Legatum Digitalis, détail" loading="lazy"></div>
+          <div class="slide"><img src="../images/leg6.png" alt="Affiches Legatum Digitalis, détail" loading="lazy"></div>
+        </div>
+        <div class="carousel-nav">
+          <button class="car-btn prev" aria-label="Image précédente"><i class="bx bx-chevron-left" aria-hidden="true"></i></button>
+          <div class="car-dots"></div>
+          <button class="car-btn next" aria-label="Image suivante"><i class="bx bx-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="meta-tag">Projet de Bachelor à l'ECAL</span>
+          <span class="meta-year">2022</span>
+        </div>
+        <h3 class="project-title">Legatum Digitalis</h3>
+        <div class="project-tags" aria-label="Types de projet"><button type="button" data-filter="publication" aria-pressed="false">Publication</button><button type="button" data-filter="archive" aria-pressed="false">Archive</button></div>
+        <p class="project-desc">Projet exploratoire sur l'héritage numérique et la mémoire en ligne après la mort. Analyse croisée des enjeux juridiques, sociaux et technologiques liés à notre empreinte numérique.</p>
+      </div>
+    </section>
+
+    <!-- PROJECT 7 -->
+    <section class="project" data-tags="animation identity">
+      <div class="carousel" data-carousel>
+        <div class="carousel-track">
+          <div class="slide video-slide">
+            <iframe class="project-video" src="https://player.vimeo.com/video/492087007?title=0&amp;byline=0&amp;portrait=0" title="Vidéo du projet S'ambiancer" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <span class="video-play-hint"><i class="bx bx-play-circle" aria-hidden="true"></i> Lire le film</span>
+          </div>
+          <div class="slide"><img src="../images/ll1.png" alt="Projet S'ambiancer, image 1" loading="lazy"></div>
+          <div class="slide"><img src="../images/ll2.png" alt="Projet S'ambiancer, image 2" loading="lazy"></div>
+          <div class="slide"><img src="../images/ll3.png" alt="Projet S'ambiancer, image 3" loading="lazy"></div>
+        </div>
+        <div class="carousel-nav">
+          <button class="car-btn prev" aria-label="Image précédente"><i class="bx bx-chevron-left" aria-hidden="true"></i></button>
+          <div class="car-dots"></div>
+          <button class="car-btn next" aria-label="Image suivante"><i class="bx bx-chevron-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-meta">
+          <span class="meta-tag">Projet sélectionné pour Lausanne Lumières</span>
+          <span class="meta-year">2020</span>
+        </div>
+        <h3 class="project-title">S'AMBIANCER</h3>
+        <p class="project-copyright">© 2020 ECAL (École cantonale d'art de Lausanne) & Festival Lausanne Lumières. Tous droits réservés.</p>
+        <div class="project-tags" aria-label="Types de projet"><button type="button" data-filter="animation" aria-pressed="false">Animation</button><button type="button" data-filter="identity" aria-pressed="false">Identité</button></div>
+        <p class="project-desc">Projet illustratif et animé réalisé en collaboration avec Fiona Valais. Sélectionné parmi 25 propositions, il a été projeté sur la tour Bel-Air à Lausanne pendant le mois de décembre dans le cadre du festival Lausanne Lumières.</p>
+      </div>
+    </section>
+
+    <footer class="projects-footer">
+      <p>Merci —</p>
+      <a href="mailto:samanthatrinkler@gmail.com">samanthatrinkler@gmail.com</a>
+    </footer>
+
+  </main>
+
+</div>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script src="../script/script.js"></script>
+</body>
+</html>
